@@ -48,7 +48,7 @@ public class Calculator {
     }
 
     public static void multiply(double num1, double num2) {
-        System.out.println(num1 + " + " + num2 " = " + (num1+num2));
+        System.out.println(num1 + " * " + num2 " = " + (num1*num2));
     }
 
     public static void divide(double num1, double num2) {
@@ -56,6 +56,6 @@ public class Calculator {
         if(num1 == 0 || num2 == 0)
         System.out.println("Error: Cannot devide by 0");
         else
-        System.out.println(num1 + " * " + num2 " = " + (num1*num2));
+        System.out.println(num1 + " * " + num2 " = " + (num1/num2));
     }
 }
