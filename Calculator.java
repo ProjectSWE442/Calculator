@@ -40,11 +40,11 @@ public class Calculator {
     }
 
     public static void add(double num1, double num2) {
-        // Student Number 1 , add your code here
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: "  + (num1+num2) );
     }
 
     public static void subtract(double num1, double num2) {
-        // Student Number 2, add your code here
+        System.out.println("The subtract of " + num1 + " and " + num2 + " is: "  + (num1- num2) );
     }
 
     public static void multiply(double num1, double num2) {
